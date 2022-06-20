@@ -7,22 +7,26 @@ body {
   height: 100vh;
 }
 
+/* Design 1 */
+/*
 body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   display: grid;
-  place-content: center;
-  background: linear-gradient(
-    0deg,
-    rgba(34, 34, 34, 1) 32%,
-    rgba(28, 28, 28, 1) 32%,
-    rgba(28, 28, 28, 1) 100%
-  );
+  align-items: center;
+  background: url("img/sky2_dark.jpg");
+  background-size: cover;
   color: #fff;
+}
+
+.container {
+  width: 50%;
+  margin-left: 4em;
+  height: 50vh;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 2.4em;
+  font-size: 3em;
 }
 
 p {
@@ -42,5 +46,62 @@ span:before {
   width: 80%;
   bottom: 0.1em;
   z-index: -1;
-  background: #71ae21;
+  background: #e88a62;
+}
+*/
+
+/* Design 2 */
+body {
+  font-family: "Montserrat";
+  display: grid;
+  align-items: center;
+  background: #000 url("img/sky3.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  margin-left: 6em;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-gap: 7em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.5em;
+  width: 90%;
+  position: relative;
+}
+
+h1:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: white;
+  left: -1em;
+  top: 10px;
+  height: 50%;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  margin-top: 0.3em;
+}
+
+span {
+  position: relative;
+}
+
+span:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 80%;
+  bottom: 0.1em;
+  z-index: -1;
+  background: #e88a62;
 }
