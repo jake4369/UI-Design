@@ -1,2 +1,3 @@
 # UI-Design
-Scrimba UI Design Coursework
+
+Scrimba Module 11 - UI Design Coursework
