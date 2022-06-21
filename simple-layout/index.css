@@ -13,7 +13,7 @@ body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   display: grid;
   align-items: center;
-  background: url("img/sky2_dark.jpg");
+  background: url("images/sky2_dark.jpg");
   background-size: cover;
   color: #fff;
 }
@@ -55,7 +55,7 @@ body {
   font-family: "Montserrat";
   display: grid;
   align-items: center;
-  background: #000 url("img/sky3.jpg");
+  background: #000 url("images/sky3.jpg");
   background-size: cover;
   color: white;
 }
