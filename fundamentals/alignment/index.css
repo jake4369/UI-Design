@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 a.logo {
@@ -32,7 +32,7 @@ a.logo {
 
 h1 {
   margin: 2em 0 1em 0.5em;
-  color: white;
+  color: #fff;
 }
 
 p {

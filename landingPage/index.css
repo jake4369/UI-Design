@@ -108,7 +108,7 @@ p {
   margin-bottom: 1em;
   background-color: var(--brown);
   color: #fff;
-  white-space: nowrap;
+  #fff-space: nowrap;
 }
 
 .outline {
@@ -189,7 +189,7 @@ p {
 
 @media (min-width: 850px) {
   body {
-    background: white;
+    background: #fff;
   }
   .left-col {
     width: 60%;

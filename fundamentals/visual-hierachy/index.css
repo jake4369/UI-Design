@@ -7,7 +7,7 @@ body {
 body {
   padding: 2em;
   background: #5801cb;
-  color: white;
+  color: #fff;
   font-family: "Nunito";
 }
 h1 {
@@ -39,8 +39,8 @@ input[type="submit"] {
   padding: 0.5em;
   font-size: 0.8em;
   background: none;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #fff;
+  color: #fff;
   cursor: pointer;
 }
 p {

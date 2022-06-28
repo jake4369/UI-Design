@@ -7,7 +7,7 @@ body {
 
 body {
   background: rgba(0, 0, 0, 0.8);
-  color: white;
+  color: #fff;
   font-family: "Nunito";
 }
 
@@ -43,13 +43,13 @@ textarea {
 }
 input[type="text"]:focus,
 textarea:focus {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fff;
 }
 
 input[type="submit"] {
   background: gray;
   border: none;
-  color: white;
+  color: #fff;
   font-weight: bold;
   padding: 0.8em 2em;
   border-radius: 2em;
@@ -88,7 +88,7 @@ input[type="submit"] {
   background-color: #ff01ff;
 }
 .colors div:nth-child(5) {
-  background-color: white;
+  background-color: #fff;
   color: black;
 }
 
@@ -100,7 +100,7 @@ input[type="submit"] {
     (2) #9D9D9D
     (3) #2B3337
     (4) #FF01FF
-    (5) white
+    (5) #fff
 */
 
 /* SOLUTION 1 - Dark colors */
@@ -136,7 +136,7 @@ input[type="submit"] {
 /* SOLUTION 2 - Light color */
 /*
 body {
-  background: white;
+  background: #fff;
   color: #1c2022;
 }
 
@@ -150,7 +150,7 @@ p {
 
 input[type="text"],
 textarea {
-  background: white;
+  background: #fff;
   border-bottom: 1px solid #506671;
   color: #2b3337;
 }

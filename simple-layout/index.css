@@ -57,7 +57,7 @@ body {
   align-items: center;
   background: #000 url("images/sky3.jpg");
   background-size: cover;
-  color: white;
+  color: #fff;
 }
 
 .container {
@@ -79,7 +79,7 @@ h1:before {
   content: "";
   position: absolute;
   width: 2px;
-  background: white;
+  background: #fff;
   left: -1em;
   top: 10px;
   height: 50%;

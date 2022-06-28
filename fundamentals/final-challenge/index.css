@@ -10,7 +10,7 @@ body {
   display: grid;
   grid-template-columns: 10% auto;
   height: 100vh;
-  color: white;
+  color: #fff;
   font-family: "Nunito";
   grid-gap: 0.5em;
 }
@@ -56,12 +56,12 @@ span {
 */
 
 body {
-  grid-gap: 2em; /* Improve the white space */
+  grid-gap: 2em; /* Improve the #fff space */
 }
 
 .content {
   background: #0044b9; /* Improve the color/contrast */
-  padding: 1.5em; /* Improve the white space */
+  padding: 1.5em; /* Improve the #fff space */
 }
 
 h1 {

@@ -8,7 +8,7 @@ body {
 
 body {
   background: #202528;
-  color: white;
+  color: #fff;
   display: grid;
   place-content: center;
   height: 100vh;
@@ -26,7 +26,7 @@ body {
 span {
   width: 5em;
   height: 5em;
-  background: white;
+  background: #fff;
   position: absolute;
   top: -2.5em;
   border-radius: 50%;

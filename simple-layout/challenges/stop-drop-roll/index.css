@@ -42,7 +42,7 @@ body {
 .container {
   box-sizing: border-box;
   padding: 3em 4em;
-  background: white;
+  background: #fff;
   height: 100vh;
   width: 60%;
   position: relative;
@@ -74,7 +74,7 @@ h1:after {
   width: 3em;
   height: 3em;
   border-radius: 50%;
-  border: 20px solid white;
+  border: 20px solid #fff;
   z-index: -1;
 }
 
